@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(240, 221, 255);
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: rgb(191, 79, 255);
+}
+
+.para {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+img {
+    box-shadow: 5px 6px 10px rgb(128, 128, 128);
+}
+
+.aot-text {
+    font-size: 20px;
+    margin-top: 15px;
+    left: 12%;
+    text-align: center;
+
+}
+
+.aot-box {
+    padding: 20px;
+    transition: transform .2s;
+}
+
+.aot-box:hover {
+    transform: scale(1.1);
+}
+
+.ds-text {
+    font-size: 20px;
+    margin-top: 15px;
+    left: 12%;
+    text-align: center;
+}
+
+.ds-box {
+    padding: 20px;
+    transition: transform .2s;
+}
+
+.ds-box:hover {
+    transform: scale(1.1);
+}
+
+.jk-text {
+    font-size: 20px;
+    margin-top: 15px;
+    left: 12%;
+    text-align: center;
+}
+
+.jk-box {
+    padding: 20px;
+    transition: transform .2s;
+}
+
+.jk-box:hover {
+    transform: scale(1.1);
+}
